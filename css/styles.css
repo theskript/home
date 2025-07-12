@@ -8,7 +8,7 @@ body {
 }
 
 .right {
-  background-image: url('../media/background.webp');
+  background-image: url('https://www.theskript.com//images/about/theskript-1.png');
   background-position: center;
   background-size: cover;
   height: 400px;
