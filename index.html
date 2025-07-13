@@ -15,8 +15,26 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/all.min.css" />
     <link rel="preload" href="https://www.theskript.com//images/about/theskript-1.png" as="image" />
     <link rel="stylesheet" href="css/styles.css" />
+
+        <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+        <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+        <script type="text/babel">
+          const MyComponent = () => {
+            return (
+              <div>
+                <h1>Hello from React!</h1>
+                <p>This is a component rendered using CDN.</p>
+              </div>
+            );
+          };
+    
+          // Render the component to the DOM
+          ReactDOM.render(<MyComponent />, document.getElementById('root'));
+        </script>
   </head>
   <body>
+    <div id="root"></div>
     <div class="columns mt-0">
       <div class="column is-6 left">
         <p class="title is-2 has-text-weight-medium name">Hi, I'm Ahmed Rahim</p>
@@ -26,7 +44,7 @@
           <p class="text">
             I am passionate about designing and developing user-friendly web applications. I have all the skills to create a new high quality web application or improve existing web applications for individuals and organization, using the latest techniques and trends. 
             I focus on modern and responsive web solutions that are easy to update by the client. Are you looking for a high quality website for your organization or company at a competitive price? Get a free quote
-
+ 
 
 
           </p>
